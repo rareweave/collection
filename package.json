@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "arweave": "^1.11.4",
+    "chalk": "^5.0.1",
+    "esbuild": "^0.14.49",
+    "glob": "^9.3.4",
+    "replace-in-file": "^6.3.5",
+    "warp-contracts": "^1.2.56",
+    "warp-contracts-plugin-deploy": "^1.0.0"
+  },
+  "name": "smartweave-collection",
+  "version": "0.0.4",
+  "description": "Contracts for smartweave-based collection of items/contracts",
+  "main": "index.js",
+  "repository": "https://github.com/angrymouse/tradeable-mintable-smartweave-nft.git",
+  "author": "Nik <nik@hns.is>",
+  "license": "MIT",
+  "private": false
+}
