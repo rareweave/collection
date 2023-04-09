@@ -1,5 +1,5 @@
 module.exports = async function (state, action) {
-    ContractAssert(state.admins.include(action.caller), "Caller should be collection admin");
+    ContractAssert(state.admins.includes(action.caller), "Caller should be collection admin");
     ContractAssert(typeof state.name == "string", "Invalid name")
     ContractAssert(typeof state.description == "string", "Invalid description")
     ContractAssert(typeof state.tags == "object" && Array.isArray(state.tags), "Invalid tags")
